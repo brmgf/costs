@@ -1,21 +1,77 @@
 {
-    "projects": [],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Cloud"
-        },
-        {
-            "id": 2,
-            "name": "Development"
-        },
-        {
-            "id": 3,
-            "name": "Design"
-        },
-        {
-            "id": 4,
-            "name": "Planning"
-        }
-    ]
+  "projects": [
+    {
+      "id": "93f1",
+      "name": "Token for everyone",
+      "budget": "2000",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "5569",
+      "name": "Token for everyone",
+      "budget": "2000",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "99ce",
+      "name": "Token for everyone",
+      "budget": "2000",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "31df",
+      "name": "Token for everyone",
+      "budget": "2000",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "c60b",
+      "name": "Token for everyone",
+      "budget": "2000",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Cloud"
+    },
+    {
+      "id": "2",
+      "name": "Development"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planning"
+    }
+  ]
 }

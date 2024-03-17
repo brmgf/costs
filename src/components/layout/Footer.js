@@ -9,7 +9,7 @@ function Footer() {
                 <li><FaInstagram /></li>
                 <li><FaLinkedin /></li>
             </ul>
-            <p className={styles.copy_right}><spam>Costs</spam> &copy;</p>
+            <p className={styles.copy_right}><span>Costs</span> &copy;</p>
         </footer>
     )
 }

@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 
-.copy_right spam {
+.copy_right span {
     font-weight: bold;
     color: #FFBB33;
 }

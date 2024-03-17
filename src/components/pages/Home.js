@@ -5,7 +5,7 @@ import LinkButton from '../layout/LinkButton'
 function Home() {
     return (
         <section className={styles.home_container}>
-            <h1>Welcome to <spam>Costs</spam></h1>
+            <h1>Welcome to <span>Costs</span></h1>
             <p>Get started to managing your project right now!</p>
 
             <LinkButton to="/new-project" text="Create project" />

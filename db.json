@@ -54,6 +54,72 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "4ca5",
+      "name": "Dashboard",
+      "budget": "20000",
+      "category": {
+        "id": "1",
+        "name": "Cloud"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "c1c9",
+      "name": "Dashboard",
+      "budget": "20000",
+      "category": {
+        "id": "1",
+        "name": "Cloud"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "b247",
+      "name": "Dashboard",
+      "budget": "20000",
+      "category": {
+        "id": "1",
+        "name": "Cloud"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "5216",
+      "name": "Dashboard Of Sales",
+      "budget": "20000",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "9c74",
+      "name": "Weekly planner",
+      "budget": "2500",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "a6da",
+      "name": "Weekly meetings",
+      "budget": "3000",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [

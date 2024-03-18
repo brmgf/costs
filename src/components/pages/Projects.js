@@ -1,5 +1,22 @@
+import Message from "../layout/Message"
+import { useLocation } from "react-router-dom"
+
 function Projects() {
-    return <h1>Projects</h1>
+
+    const location = useLocation()
+    let message = ''
+
+    if (location.state) {
+        message = location.state.message
+    }
+
+    return (
+        <div>
+            <h1>My projects</h1>
+            {console.log(message)}
+            {message && <Message type="success" msg={message}/>}
+        </div>
+    )
 }
 
 export default Projects

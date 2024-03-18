@@ -19,8 +19,8 @@ function NewProject() {
         })
         .then((resp => resp.json()))
         .then((data) => {
-            console.log(data)
-            navigate.push('/projects', { message: 'Project created!' })
+            const state = { message: 'Project created!' }
+            navigate('/projects', { state })
         })
         .catch((err) => console.log(err))
     }

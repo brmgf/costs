@@ -43,8 +43,8 @@ function Projects() {
                 'Content-Type': 'application/json'
             },
         }).then(resp => resp.json())
-        .then(data => {
-            setProjects(projects.filter((project) => project.id != id))
+        .then(() => {
+            setProjects(projects.filter((project) => project.id !== id))
             setProjectMessage('Project deleted successfully!')
         }).catch(err => console.log(err))
     }

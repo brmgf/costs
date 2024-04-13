@@ -2,14 +2,21 @@
   "projects": [
     {
       "id": "c60b",
-      "name": "Token for everyone",
+      "name": "Tokens for everyone",
       "budget": "2000",
       "category": {
         "id": "2",
         "name": "Development"
       },
-      "cost": 0,
-      "services": []
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Create API",
+          "description": "Create authentication api",
+          "cost": "1000",
+          "id": "6ad6a569-3010-4085-b404-dad1858989e3"
+        }
+      ]
     },
     {
       "id": "b247",
@@ -19,8 +26,15 @@
         "id": "1",
         "name": "Cloud"
       },
-      "cost": 0,
-      "services": []
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Creating UX/UI mock",
+          "cost": "1000",
+          "description": "Create all dashboard's components",
+          "id": "43c8170f-8790-49e3-95e8-9b4d39929dcf"
+        }
+      ]
     },
     {
       "id": "9c74",

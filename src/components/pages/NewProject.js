@@ -18,7 +18,7 @@ function NewProject() {
             body: JSON.stringify(project),
         })
         .then((resp => resp.json()))
-        .then((data) => {
+        .then(() => {
             const state = { message: 'Project created!' }
             navigate('/projects', { state })
         })
@@ -27,7 +27,7 @@ function NewProject() {
 
     return (
         <div className={styles.newproject_container}>
-            <h1>Create project</h1>
+            <h1>New project</h1>
             <p>Create your project and then add services to it</p>
             <ProjectForm handleSubmit={createPost} btnText="Create project"/>
         </div>

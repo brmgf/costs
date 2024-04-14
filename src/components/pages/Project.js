@@ -84,7 +84,7 @@ function Project() {
             body: JSON.stringify(projectUpdated)
         })
         .then((resp) => resp.json())
-        .then((data) => {
+        .then(() => {
             setProject(projectUpdated)
             setServices(servicesUpdated)
             setMessage('Service deleted successfully!')
@@ -118,7 +118,7 @@ function Project() {
             body: JSON.stringify(project),
         })
         .then((resp) => resp.json())
-        .then((data) => {
+        .then(() => {
             setShowServiceForm(false)
         })
         .catch((err) => console.log(err))

@@ -37,17 +37,6 @@
       ]
     },
     {
-      "id": "9c74",
-      "name": "Costs Planner",
-      "budget": "3000",
-      "category": {
-        "id": "4",
-        "name": "Planning"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "a6da",
       "name": "Weekly meetings",
       "budget": "3000",
@@ -57,6 +46,30 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "b595",
+      "name": "Trip to the Central",
+      "budget": "4000",
+      "category": {
+        "id": "4",
+        "name": "Planning"
+      },
+      "cost": 4000,
+      "services": [
+        {
+          "name": "Transport",
+          "cost": "2000",
+          "description": "Plane tickets ",
+          "id": "a97621cd-f319-4f62-8024-8220461db006"
+        },
+        {
+          "name": "Hotel",
+          "cost": "2000",
+          "description": "Stay for two days",
+          "id": "e66171df-d396-4a44-8e0f-234a77d54fc9"
+        }
+      ]
     }
   ],
   "categories": [
